@@ -1,0 +1,8 @@
+extends layout
+block content
+  .appcontainer
+
+block scripts
+  script(id='init_data', type='text/json')
+    | {"username": "#{username}"}
+  script(src='/bootstrap.js')
